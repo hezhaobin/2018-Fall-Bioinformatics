@@ -1,0 +1,437 @@
+[[file:media/image1.png]]
+
+*CLASS SESSIONS:* 12:30P -- 2:20P T, Th 214 Blank Honor's Center (BHC)
+
+Instructors: Bin He* (336 BBE) Jan Fassler (202 BBE)
+
+Emails: bin-he@uiowa.edu
+[[mailto:jan-fassler@uiowa.edu][jan-fassler@uiowa.edu]]
+
+Office Phone: (319) *467-015* (319) 335-1542
+
+Office Hours: T, Th 2:30-4:30 PM ^{§ ,} T, W, Th 9:30-10:45
+
+* Course Director; § Students unable to make scheduled office hours are
+encouraged to arrange separate appointments with instructors.
+
+Department Chair (DEO): Diane Slusarski, 143 Biology Building,
+319-335-1054
+
+*Course Description *
+
+This is a one-semester overview of topics in Bioinformatics including
+analysis of nucleotide and peptide sequence data, sequence alignment
+algorithms, molecular phylogeny, analysis of transcriptome data,
+proteomics, protein structure analysis, and regulatory bioinformatics.
+Emphasis is on experimental methods and analytical approaches. The
+course is open to graduate students and advanced undergraduates.
+
+*Course Goals*
+
+In today's post-genomic world of biological research, the scientist is
+awash in data as never before. This data is in the form of DNA and
+polypeptide sequences, data from genomic and transcriptomic
+applications, as well as protein structures and phenotypic variation,
+all of which must be integrated and analyzed together. Furthermore,
+high-throughput sequencing technology has brought us to the doorstep of
+the personal genomics revolution. This brings with it not just another
+big data explosion but the need for robust and meaningful analytical
+tools. These developments have solidified and diversified the uses of
+basic bioinformatics techniques in basic biological and biomedical
+research. The broad goal of this course is to introduce the student to
+the methods of several bioinformatics sub-disciplines including sequence
+alignments, phylogenetic analysis, genome function annotation, secondary
+and tertiary protein structural analyses, and transcriptomic and
+proteomic analyses.
+
+*Recommended Background *
+
+BIOL:2512 or BIOC:3120 or MICR:3170.
+
+*TILE Format*
+
+This course is taught in the University's TILE format: Transform,
+Interact, Learn, Engage. The TILE project facilitates lively
+interaction, enhanced learning, increased faculty/student engagement,
+and student-centered, active learning. TILE rooms are equipped with
+circular tables, laptops, flat screen monitors and whiteboards to
+support collaboration and active learning. This free-flowing learning
+environment is well suited to small group work and ideal for learning to
+use diverse bioinformatic applications to solve various analytical
+challenges.
+
+Our particular TILE classroom's computers have been preconfigured for
+our bioinformatics activities. Most of the software applications that
+will be introduced during the TILE sessions are either available online
+or easily installable on personal computers for use and practice outside
+of the TILE sessions and will be mentioned as we go along. As a courtesy
+to your classmates and instructors, we ask you to refrain from using
+computers, phones, and other electronic devices for purposes unrelated
+to course activities.
+
+Teaching Approach
+
+Our 2-hour Tuesday and Thursday afternoon meetings will follow a regular
+routine. Sessions will be devoted to workshops and lectures as described
+in the chart below. Tuesday sessions will consist of 25' of lecture and
+~ 65' of workshop activities. Each workshop will involve a short
+introduction, group work, and a presentation / discussion period.
+Thursday sessions will include a 15' quiz over the readings and lectures
+for that week, 25' of lecture and 55' of workshop activities. Any
+remaining time will be spent working on or reporting on student project
+activities (Tuesdays) or describing and demonstrating the next set of HW
+exercises, project activities, and relevant tools (Thursdays).
+
+| Tuesday                    | Time   | Description                                                                                 |
+|----------------------------+--------+---------------------------------------------------------------------------------------------|
+| Introduction to the week   | 10 '   | Goals for TILE exercises and project-specific activities. HWs collected and/or passed out   |
+| Workshop (part 1)          | 25 '   | Lecture                                                                                     |
+|                            | 65 '   | - Mini-Lecture on Workshop Activities                                                       |
+|                            |        |                                                                                             |
+|                            |        | - Group Work                                                                                |
+                                                                                                                                   
+| Workshop wrap-up           | 10 '   | Presentations, Discussion, Feedback\\                                                       |
+|                            |        | (3' per group for groups 1, 2, and 3)                                                       |
+
+| Thursday            | Time   | Description                                                           |
+|---------------------+--------+-----------------------------------------------------------------------|
+| Quiz                | 15 '   | Quiz on readings/lecture for week                                     |
+| Workshop (part 2)   | 25 '   | Lecture                                                               |
+|                     | 55 '   | - Mini-Lecture on Workshop Activities                                 |
+|                     |        |                                                                       |
+|                     |        | - Group Work                                                          |
+                                                                                                      
+| Workshop wrap-up    | 7 '    | Presentations, Discussion, Feedback\\                                 |
+|                     |        | (3' per group for groups 4 and 5)                                     |
+| HW tips             | 8 '    | Description and/or demonstrations of project HW exercises and tools   |
+
+*Schedule (8 course modules) and assigned readings**
+
+* See Required Textbooks and Articles section for key to abbreviations
+in assigned readings. Unless announced ahead of time, *ZB* readings are
+listed below as optional further background material and are not
+required.
+
+Course Schedule and Reading List
+
+| Wk.                             | Dates                                                | Topics                                                                                                                         | Textbook                                              | Special Dates**                                                        |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | Readings*                                             |                                                                        |
+|---------------------------------+------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------+------------------------------------------------------------------------|
+| MODULE 1 [BH]                   | *UNIX & Database Informatics*                        |                                                                                                                                |                                                       |                                                                        |
+| 1                               | 8-21,\\                                              | Command line environment, navigating the file system, shells, text editors (vi, emac), regular expressions, data flow (>, |)   | X ch. 1 (p3--9);                                      | *QUIZ 1*                                                               |
+|                                 | 8-23                                                 |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | BR (p2-10).                                           |                                                                        |
+| 2                               | 8-28,\\                                              | Shell scripting, file permissions, file transfer protocol                                                                      | X ch. 2 (p10--27); BR (p11-13);                       | *QUIZ 2*                                                               |
+|                                 | 8-30                                                 |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB ch. 3 (p45--53)}                                 | *PROJECT theme introduced (ftp)*                                       |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                |                                                       | *HW1 assigned*                                                         |
+| MODULE 2 [JF]                   | *Genes & Proteins*                                   |                                                                                                                                |                                                       |                                                                        |
+| 3                               | 9-4,                                                 | The logic and structure of genes, DNARNA; gene detection & annotation                                                          | X ch. 8 (p97--106) & ch. 16 (p231--240)               | *QUIZ 3*                                                               |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 | 9-6                                                  |                                                                                                                                | BR (14-41)                                            | *HW1 due*                                                              |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB ch1 (p1--19) & ch. 9 (p314--346)}                |                                                                        |
+| 4                               | 9-11,\\                                              | Amino acids and protein secondary structure                                                                                    | X ch. 12 (p173--180), ch. 14 (p200--213)              | *QUIZ 4*                                                               |
+|                                 | 9-13                                                 |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | BR (p42-66)                                           | *PROJECT LAUNCH*                                                       |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB ch. 2 (p25--44)}                                 | *HW2 assigned *                                                        |
+| MODULE 3 [JF]                   | *Protein Structure *                                 |                                                                                                                                |                                                       |                                                                        |
+| 5                               | 9-18,\\                                              | NCBI's Cn3D and Swiss PDB Viewer (DeepView)                                                                                    | X ch. 13 (p187--199)                                  | *QUIZ 5*                                                               |
+|                                 | 9-20                                                 |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | *B*R (p66-80)                                         | *HW2 due*                                                              |
+| 6                               | 9-25,\\                                              | Mutagenesis and DeepView; Functional prediction (polyphen, SIFT)                                                               | X ch. 15 (p214--230)                                  | *QUIZ 6*                                                               |
+|                                 | 9-27                                                 |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | BR (p81-88)                                           | *Hw3 assigned*                                                         |
+| MODULE 4 [JF]                   | *Sequence Alignment*                                 |                                                                                                                                |                                                       |                                                                        |
+| 7                               | 10-2,\\                                              | Pairwise alignment; BLAST algorithm (theory)                                                                                   | X ch. 3 (p31--50) & ch. 4 (p51--62)                   | *QUIZ 7*                                                               |
+|                                 | 10-4                                                 |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | BR (p89-111)                                          | *HW3 due*                                                              |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB ch. 5 (p115--163).}                              |                                                                        |
+| 8                               | 10-9,\\                                              | BLAST database searches (practical)                                                                                            | X ch. 5 (p63--74) & ch. 6 (p75--84)                   | *QUIZ 8*                                                               |
+|                                 | 10-11                                                |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | BR (p112-136)                                         | *HW4 assigned or take-home MT1*                                        |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB ch. 6 (p165--220)}                               |                                                                        |
+| MODULE 5 [BH]                   | *Phylogenetic Analysis*                              |                                                                                                                                |                                                       |                                                                        |
+| 9                               | 10-16,\\                                             | Cladistics and Maximum parsimony; Distance based (neighbor-joining) & bootstrapping/jackknifing.                               | X ch. 10 (p127--141) & ch. 11 (p142--156, 163--165)   | *QUIZ 9*                                                               |
+|                                 | 10-18                                                |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB ch. 8 (p267--276)}                               | *HW-4 or exam due*                                                     |
+| 10                              | 10-23,\\                                             | Maximum likelihood, Bayesian inference                                                                                         | X ch. 11 (p157--169)                                  | *QUIZ 10*                                                              |
+|                                 | 10-25                                                |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                | _{ZB appendix A (p695--699)}                          | *HW5 assigned*                                                         |
+| MODULE 6 [BH]                   | *Genome Browsers and Tools*                          |                                                                                                                                |                                                       |                                                                        |
+| 11                              | 10-30,                                               | UCSC Genome Browser & BED tools; UCSC Table browser                                                                            | X ch. 17 (p243--260)                                  | *QUIZ 11*                                                              |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 | 11-1                                                 |                                                                                                                                |                                                       | *HW 5 due*                                                             |
+| 12                              | 11-6, 11-8                                           | Ensembl genome browser -- BioMart or could be RNA-seq instead                                                                  | To be assigned...                                     | *QUIZ 12*                                                              |
+|                                 |                                                      |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                |                                                       | *Take home exam distributed*                                           |
+| MODULE 7 [BH]                   | *Motif Identification & Regulatory Bioinformatics*   |                                                                                                                                |                                                       |                                                                        |
+| 13                              | 11-13,\\                                             | Motif elicitation (MEME), TOMTOM, JASPAR                                                                                       | X ch. 7 (p85-94)                                      | *QUIZ 13*                                                              |
+|                                 | 11-15                                                |                                                                                                                                |                                                       |                                                                        |
+|                                 |                                                      |                                                                                                                                |                                                       | Take home exam due                                                     |
+| THANKSGIVING BREAK              |                                                      |                                                                                                                                |                                                       |                                                                        |
+| MODULE 8 [JF]                   | *Gene Association Networks*                          |                                                                                                                                |                                                       |                                                                        |
+| 15                              | 11-27,\\                                             | Gene ontology and gene association networks                                                                                    | BR (p171-179)                                         | *QUIZ 14*                                                              |
+|                                 | 11-29                                                |                                                                                                                                |                                                       |                                                                        |
+| PROJECT PRESENTATIONS [JF.BH]   |                                                      |                                                                                                                                |                                                       |                                                                        |
+| 16                              | 12-4,\\                                              | Gene Project Presentations                                                                                                     |                                                       | *Reports in progress; due date during the assigned final exam slot.*   |
+|                                 | 12-6                                                 |                                                                                                                                |                                                       |                                                                        |
+
+Grading
+
+Letter grades (A, A−, B+, ...) will be based on the total points (out of
+500) earned in the course and assigned according to the final
+distribution of points within the relevant student cohort (/i.e/.,
+undergraduates or graduate students). This final grade will be based on
+the following course elements:
+
+5 PROJECT HWs AT 2 WEEK INTERVALS * 24 % 120 points (24 pts / HW)
+
+14 QUIZZES (WEEKS 1--15 EXCEPT 14) ** 14 % 70 points (5 pts / quiz)
+
+1 TAKE-HOME EXAM (Week 11) * 32 % 160 points
+
+1 FINAL PROJECT PRESENTATION 10 % 50 points
+
+1 FINAL PROJECT REPORT 20 % 100 points
+
+*TOTAL: 100 % 500 points*
+
+* Exams and homework (HW) are due electronically in the ICON dropbox
+before 12:30 pm of the indicated date. Exams and late HWs submitted up
+to one week after due date will be subjected to a 25% penalty. Exams and
+late HWs will not be accepted after that time.
+
+** Quizzes begin promptly at the beginning of Thursday sessions and
+cover the assigned readings for that week and all material covered
+during the previous two lectures (the previous Tuesday and the Thursday
+of the preceding week).
+
+Textbooks & Readings
+
+*1. REQUIRED TEXTBOOK (X): /Essential Bioinformatics./ Author: Jin
+Xiong*
+
+Publication Date: March 13, 2006 | ISBN-10: 0521600820 | ISBN-13:
+978-0521600828 |
+
+Available online (link from the course webpage)
+
+From the publisher's description: “Essential Bioinformatics is a concise
+yet comprehensive textbook of bioinformatics, which provides a broad
+introduction to the entire field. Written specifically for a life
+science audience, the basics of bioinformatics are explained, followed
+by discussions of the state-of-the-art computational tools available to
+solve biological research problems. All key areas of bioinformatics are
+covered including biological databases, sequence alignment, genes and
+promoter prediction, molecular phylogenetics, structural bioinformatics,
+genomics and proteomics. The book emphasizes how computational methods
+work and compares the strengths and weaknesses of different methods.
+This balanced yet easily accessible text will be invaluable to students
+who do not have sophisticated computational backgrounds. Technical
+details of computational algorithms are explained with a minimum use of
+mathematical formulae; graphical illustrations are used in their place
+to aid understanding. The effective synthesis of existing literature as
+well as in-depth and up-to-date coverage of all key topics in
+bioinformatics make this an ideal textbook for all bioinformatics
+courses taken by life science students and for researchers wishing to
+develop their knowledge of bioinformatics to facilitate their own
+research.”
+
+*2. OPTIONAL TEXTBOOK (ZB): /Understanding Bioinformatics/. Authors:
+Marketa Zvelebil and Jeremy O. Baum*
+
+Publication Date: 2008 | ISBN-13: 978-0815340249 | ISBN-10: 0815340249
+
+On reserve at the Sciences Library
+
+From the publisher's description: “Suitable for advanced undergraduates
+and postgraduates, /Understanding Bioinformatics/ provides a definitive
+guide to this vibrant and evolving discipline. The book takes a
+conceptual approach. It guides the reader from first principles through
+to an understanding of the computational techniques and the key
+algorithms. /Understanding Bioinformatics/ is an invaluable companion
+for students from their first encounter with the subject through to more
+advanced studies.”
+
+*3. REQUIRED BIOINFORMATICS READER (BR):* Available online (ICON)
+
+Theme Project Genome
+
+Each year, students in the course learn to apply bioinformatics methods
+to a gene or gene family from a newly sequenced genome of an organism or
+class of organisms. This year students will develop gene projects based
+on the recently sequenced genome of the +tiger tail seahorse,
+/Hippocampus comes/+. Homeworks, and a project presentation and report
+will be based on this gene project. Additional information will be
+introduced at the beginning of the semester.
+
+2018: ???
+
+#+BEGIN_QUOTE
+  *2017:* Genome of the tiger tail seahorse, /Hippocampus comes/
+
+  *2016:* Genome of the California spotted octopus, /Octopus
+  bimaculoides/
+
+  *2015:* Genomes of the Amoebozoa (social slime molds such as
+  /Dictyostelium discoideum/ to parasitic ones such as /Entamoeba
+  histolytica/)
+
+  *2014:* Genomes of the Giant Viruses (nucleo-cytoplasmic large DNA
+  viruses, or NCLDV)
+
+  *2013:* Genome of the enigmatic placazoan /Trichoplax adhaerens/
+#+END_QUOTE
+
+*Academic Misconduct*
+
+The College of Liberal Arts and Sciences considers academic fraud,
+dishonesty, and cheating serious academic misconduct. All students
+suffer when academic misconduct takes place. Academic fraud, dishonesty,
+and cheating disturb the mutual respect that should exist between
+instructors and students and among students, and can poison the
+atmosphere of a classroom. Perhaps most seriously, those who commit
+academic fraud, dishonesty, or cheating are robbed of the educational
+experiences that are the primary purposes of course work in the College
+of Liberal Arts and Sciences. We expect instructors to help students
+understand and avoid all academic fraud.
+
+If you are unclear about the proper use and citation of sources, or the
+details and guidelines for any assignment, you should discuss the
+assignment and your questions with the instructor. All forms of
+plagiarism and any other activities that result in a student presenting
+work that is not really his or her own are considered academic fraud.
+Academic fraud includes these and other misrepresentations: presentation
+of ideas from any sources you do not credit; the use of direct
+quotations without quotation marks and without credit to the source;
+paraphrasing information and ideas from sources without credit to the
+source; failure to provide adequate citations for material obtained
+through electronic research downloading and submitting work from
+electronic databases without citation; participation in a group project
+which presents plagiarized materials; taking credit as part of a group
+without participating as required in the work of the group; submitting
+material created/written by someone else as one's own, including
+purchased term/research papers;
+
+Cheating on examinations and other work also interferes with your own
+education as well as the education of others in your classes. If you are
+unclear about the guidelines for any testing situation or assignment,
+you should discuss your questions with the instructor. Academic cheating
+includes all of the following, and any other activities that give a
+student an unfair advantage in course work: copying from someone else's
+exam, homework, or laboratory work; allowing someone to copy or submit
+your work as his/her own; accepting credit for a group project without
+doing your share; submitting the same paper in more than one course
+without the knowledge and approval of the instructors involved; using
+notes, text messaging, cell phone calls, pre-programmed formulae in
+calculators, or other materials during a test or exam without
+authorization; not following the guidelines specified by the instructor
+for a "take home" test or exam.
+
+When an instructor in the College of Liberal Arts and Sciences suspects
+a student of academic fraud or cheating these procedures will be
+followed: The instructor (or supervisor, if the instructor is a teaching
+assistant) must inform the student--in a printed letter--as soon as
+possible after the incident has been observed or discovered. If the
+instructor comes to the conclusion that the student academic fraud or
+cheating has occurred, he or she (in consultation with the supervisor if
+the instructor is a teaching assistant) will determine what action to
+take. The instructor may decide to reduce the student's grade on the
+assignment or activity, or in the course, or even to assign an F for the
+assignment or activity or for the course The instructor will send a
+written report of the case to the Associate Dean for Academic Programs
+and send copies of the report to the DEO and to the student(s) involved
+The associate dean for academic programs will impose the following or
+other penalties: disciplinary warning until graduation (usually for a
+first offense); suspension from the college for a calendar year or
+longer (usually for a second offense); or recommendation of expulsion
+from the University by the president (usually for a third offense). If a
+student believes that the finding of academic fraud or cheating is in
+error or the penalty unjust, he or she may request information on appeal
+procedures from CLAS Academic Programs & Services, 120 Schaeffer Hall.
+
+IMPORTANT POLICIES OF THE COLLEGE OF LIBERAL ARTS AND SCIENCES
+
+*Academic Fraud\\
+*Plagiarism and any other activities involving students presenting work
+that is not their own is academic fraud. Academic fraud is a serious
+matter and is reported to the departmental DEO and to the Associate Dean
+for Undergraduate Programs and Curriculum. Instructors and DEOs decide
+on appropriate consequences at the departmental level while the
+Associate Dean enforces additional consequences at the collegiate level.
+See the CLAS Academic Fraud section of the
+[[http://clas.uiowa.edu/students/handbook/academic-fraud-honor-code][Student
+Academic Handbook.]]
+
+*CLAS Final Examination Policies*
+
+Final exams may be offered only during finals week. No exams of any kind
+are allowed during the last week of classes. Students should not ask
+their instructor to reschedule a final exam since the College does not
+permit rescheduling of a final exam once the semester has
+begun. Questions should be addressed to the Associate Dean for
+Undergraduate Programs and Curriculum.
+
+*Electronic Communication*\\
+University policy specifies that students are responsible for all
+official correspondences sent to their University of Iowa e-mail address
+(@uiowa.edu). Faculty and students should use this account for
+correspondences. Link for additional information on the CLAS website can
+be found
+[[http://clas.uiowa.edu/faculty/teaching-policies-resources-syllabus-insert][/here/]].
+
+*Making a Suggestion or a Complaint*\\
+Students with a suggestion or complaint should first visit the
+instructor, then the course supervisor, and then the departmental DEO.
+Complaints must be made within six months of the incident. See the CLAS
+[[http://clas.uiowa.edu/students/handbook][/Student Academic
+Handbook./]]
+
+*Accommodations for Disabilities*
+
+The University of Iowa is committed to providing an educational
+experience that is accessible to all students. A student may request
+academic accommodations for a disability (which include but are not
+limited to mental health, attention, learning, vision, and physical or
+health-related conditions). A student seeking academic accommodations
+should first register with Student Disability Services and then meet
+with the course instructor privately in the instructor's office to make
+particular arrangements. Reasonable accommodations are established
+through an interactive process between the student, instructor, and SDS.
+See
+http://[[https://sds.studentlife.uiowa.edu/][sds.studentlife.uiowa.edu/]]
+for information. 
+
+*Understanding Sexual Harassment*
+
+Sexual harassment subverts the mission of the University and threatens
+the well-being of students, faculty, and staff. All members of the UI
+community have a responsibility to uphold this mission and to contribute
+to a safe environment that enhances learning. Incidents of sexual
+harassment should be reported immediately. See
+[[http://sexualharassment.uiowa.edu/][/the UI Comprehensive Guide on
+Sexual Harassment/]] for assistance, definitions, and the full
+University policy.
+
+*Administrative Home\\
+*The College of Liberal Arts and Sciences is the administrative home of
+this course and governs matters such as the add/drop deadlines, the
+second-grade-only option, and other related issues. Different colleges
+may have different policies. Questions may be addressed to 120 Schaeffer
+Hall, or see the CLAS
+[[http://www.clas.uiowa.edu/students/handbook/][/Student Academic
+Handbook./]]
+
+*Reacting Safely to Severe Weather\\
+*In severe weather, class members should seek appropriate shelter
+immediately, leaving the classroom if necessary. The class will continue
+if possible when the event is over. For more information on Hawk Alert
+and the siren warning system, visit the Public Safety website.
+
+*Last modified:* June 18, 2018 (J.F.)
